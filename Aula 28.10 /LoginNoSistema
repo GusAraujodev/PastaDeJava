@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in); 
+
+    String Usuario = "Gustavo";
+    int senha = 1234;
+
+        System.out.println("Digite o nome de usuário:");
+        String nomeUsuario = scanner.nextLine();
+        System.out.println("Digite a senha:");
+        int senhaUsuario = scanner.nextInt();
+       
+        if (nomeUsuario.equals(Usuario) && senhaUsuario == senha){
+            System.out.println("Login bem-sucedido!");
+        }
+            else{
+            System.out.println("Login inválido!");
+            }
+
+            }
+
+        }
